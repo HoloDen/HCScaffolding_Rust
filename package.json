@@ -1,0 +1,33 @@
+{
+  "name": "ui-src",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3005",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "chalk": "^2.4.1",
+    "electron": "^3.0.7",
+    "node-cmd": "^3.0.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "react-scripts": "2.1.1",
+    "save-dev": "^2.0.0"
+  },
+  "scripts": {
+    "server-dev": "npm start & node ./src/server/server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
