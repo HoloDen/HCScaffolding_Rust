@@ -32,6 +32,6 @@ npm run server-dev
 ```
 The app is served at [http://localhost:3000/](http://localhost:3000).
 
-##Authors
+## Authors
 Created by [Shivendran](https://github.com/tdshivendran) and [dLee](https://github.com/dlee67).
 
